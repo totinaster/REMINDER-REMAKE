@@ -1,0 +1,78 @@
+
+main {
+    width: 66.66667%;
+    border-left: 2px solid black;
+}
+
+main::first-letter {
+    font-size: 150%;
+    font-weight: bolder;
+    color: rgb(146, 211, 236);
+}
+
+.add-new {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-new button {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: whitesmoke;
+
+    padding: 0.15rem 0.55rem 0.15rem 0.55rem;
+    margin-bottom: 0.75rem;
+
+    position: relative;
+    left: 0.55rem;
+    bottom: 0.5rem;    
+
+}
+
+.add-new button:hover,
+.add-new button:active {
+    background: rgb(55, 65, 81 );
+}
+
+nav a:hover,
+nav a:active {
+    color: whitesmoke;
+}
+
+
+
+/* TITLES */
+h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1.725rem;
+    
+    display: none;
+}
+
+h3.today {
+    color: rgb( var(--color-today));
+    display: block;
+}
+
+
+h3.scheduled {
+    color: rgb( var(--color-scheduled));
+}
+
+
+h3.all {
+    color: rgb( var(--color-all));
+}
+
+h3.flagged {
+    color: rgb( var(--color-flagged));   
+}
+
+/* TODOS */
+.todos p {
+    padding: 0.225rem 0;
+    border-bottom: 1px solid rgb(95, 94, 94);
+}
+
+
